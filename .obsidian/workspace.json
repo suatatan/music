@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "25437f564f99c205",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c3e6e02a2a4146b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64f26bc58e13a0a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-Nota Çalışmaları/Şerane Çalışması.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Şerane Çalışması"
+            }
+          },
+          {
+            "id": "db5a49a187b5414a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "01-Ham Notalar/Şerane Nota.jpeg"
+              },
+              "icon": "lucide-image",
+              "title": "Şerane Nota"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "005ca2b09624080f",
+    "type": "split",
+    "children": [
+      {
+        "id": "062285934e8353fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d401e018ea9a1c0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dd54826c7f67c224",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c5a8fd54e012d70b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d972c379618c20bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae2780ccc0f5a3c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b1c4525f90ce823",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-Nota Çalışmaları/Şerane Çalışması.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Şerane Çalışması"
+            }
+          },
+          {
+            "id": "111c3a48c63cbcff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02-Nota Çalışmaları/Şerane Çalışması.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Şerane Çalışması"
+            }
+          },
+          {
+            "id": "39db9698a73cd4a9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2d99f51ae39f392b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "67b8e68e420c372c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-Nota Çalışmaları/Şerane Çalışması.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Şerane Çalışması"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "64f26bc58e13a0a1",
+  "lastOpenFiles": [
+    "99-Ekler/Recording 20260423130554.m4a",
+    "99-Ekler/Recording 20260423130507.m4a",
+    "99-Ekler/Recording 20260423124811.m4a",
+    "99-Ekler/Recording 20260423124749.m4a",
+    "99-Ekler/Recording 20260423124716.m4a",
+    "99-Ekler/Recording 20260423124639.m4a",
+    "99-Ekler/Pasted image 20260423124443.png",
+    "01-Ham Notalar/Şerane Nota.jpeg",
+    "02-Nota Çalışmaları/Şerane Çalışması.md",
+    "99-Ekler",
+    "99-Ekler/Pasted image 20260423122439.png",
+    "02-Nota Çalışmaları",
+    "01-Ham Notalar"
+  ]
+}
