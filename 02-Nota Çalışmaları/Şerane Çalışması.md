@@ -18,7 +18,7 @@
 Patlatmasız:  si  re  do re si          la   do   si    do    la      sol     fa   sol        la    --------
 Patlatmalı:    si ♌  re   do re si    la
 
-# Kendi çaldığım--
+# Kendi çaldığım Format ABC.
 
 ```abc
 X: 1
