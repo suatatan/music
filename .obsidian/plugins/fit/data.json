@@ -1,0 +1,39 @@
+{
+  "pat": "",
+  "owner": "suatatan",
+  "repoOwner": "suatatan",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/540121?v=4",
+  "repo": "music",
+  "branch": "main",
+  "deviceName": "",
+  "checkEveryXMinutes": 5,
+  "autoSync": "off",
+  "notifyChanges": true,
+  "notifyConflicts": false,
+  "enableDebugLogging": true,
+  "localSha": {
+    "99-Ekler/Pasted image 20260423124443.png": "426bd518513fe7c3faca1d84f8b19c76ab3bc352",
+    "99-Ekler/Pasted image 20260423122439.png": "adbb11bc7734080819ca03f0c674718883dd34a7",
+    "02-Nota Çalışmaları/Şerane Çalışması.md": "65d22862171215f887c126d18342611c439178a7",
+    "01-Ham Notalar/Şerane Nota.jpeg": "2b833278e73eb3163a4814eb6f53e23254cff3fb"
+  },
+  "lastFetchedCommitSha": "8a26245f5001b30eae20e5bf83a4687135e735ec",
+  "lastFetchedRemoteSha": {
+    ".obsidian/app.json": "2b1ffd85ad4d0dbd4b93a33c7512524714ce9c3c",
+    ".obsidian/appearance.json": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+    ".obsidian/community-plugins.json": "543cb2f20e0d69a059bc999824e98cae4ad48efe",
+    ".obsidian/core-plugins.json": "95e34dfa6fd5ea3f9896c9786582acf13d2703a7",
+    ".obsidian/plugins/github/data.json": "c59bfde3c7bbd4a9507a3fc4e42a713be5d2afc3",
+    ".obsidian/plugins/github/main.js": "5b8b50d920fcd08147e8835d38e135af893f270e",
+    ".obsidian/plugins/github/manifest.json": "ef7d7d75254dbeb6f8635533f5e9cd322eea486a",
+    ".obsidian/plugins/github/styles.css": "71cc60fd416f8b09abc8886ea318f906ba5c6cd3",
+    ".obsidian/plugins/obsidian-emoji-toolbar/main.js": "29047f629f82fe47adc5b9e0513a47b54b5281f1",
+    ".obsidian/plugins/obsidian-emoji-toolbar/manifest.json": "cee4b41df1746eb7cc4a737daa88a2da4e86d662",
+    ".obsidian/plugins/obsidian-emoji-toolbar/styles.css": "55f083fcf1484448e077ddc3d88e41156a04b0e0",
+    ".obsidian/workspace.json": "6a40249d5e4cfbec11789063ba63007c8085f08a",
+    "01-Ham Notalar/Şerane Nota.jpeg": "4c8e303f37ebba708c8b00345dc6b75dc0d49a21",
+    "02-Nota Çalışmaları/Şerane Çalışması.md": "2b6167d1416fe81fc4ff126a26448f40ce6ed949",
+    "99-Ekler/Pasted image 20260423122439.png": "058c6c1e2cc9492f99d1b59bd865fb788cb3c09c",
+    "99-Ekler/Pasted image 20260423124443.png": "6e3b066c97b0e4ed6074768a167ecfc69efba1ba"
+  }
+}

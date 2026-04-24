@@ -20,15 +20,9 @@
               "icon": "lucide-file",
               "title": "Şerane Çalışması"
             }
-          }
-        ]
-      },
-      {
-        "id": "1d9904bcf40642b8",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "4cf5da8ee42340a8",
+            "id": "db5a49a187b5414a",
             "type": "leaf",
             "state": {
               "type": "image",
@@ -199,29 +193,23 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "audio-recorder:Start/stop recording": false,
-      "fit:Sync to GitHub": false
+      "audio-recorder:Start/stop recording": false
     }
   },
   "active": "64f26bc58e13a0a1",
   "lastOpenFiles": [
-    "_fit/01-Ham Notalar/Şerane Nota.jpeg",
-    "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
-    "_fit/99-Ekler/Pasted image 20260423122439.png",
-    "_fit/99-Ekler/Pasted image 20260423124443.png",
-    "_fit/01-Ham Notalar",
-    "_fit/02-Nota Çalışmaları",
-    "_fit/99-Ekler",
-    "_fit",
-    "01-Ham Notalar/Şerane Nota.jpeg",
-    "99-Ekler/Pasted image 20260423124443.png",
-    "99-Ekler/Pasted image 20260423122439.png",
-    "02-Nota Çalışmaları/Şerane Çalışması.md",
     "99-Ekler/Recording 20260423130554.m4a",
     "99-Ekler/Recording 20260423130507.m4a",
     "99-Ekler/Recording 20260423124811.m4a",
     "99-Ekler/Recording 20260423124749.m4a",
     "99-Ekler/Recording 20260423124716.m4a",
-    "99-Ekler/Recording 20260423124639.m4a"
+    "99-Ekler/Recording 20260423124639.m4a",
+    "99-Ekler/Pasted image 20260423124443.png",
+    "01-Ham Notalar/Şerane Nota.jpeg",
+    "02-Nota Çalışmaları/Şerane Çalışması.md",
+    "99-Ekler",
+    "99-Ekler/Pasted image 20260423122439.png",
+    "02-Nota Çalışmaları",
+    "01-Ham Notalar"
   ]
 }

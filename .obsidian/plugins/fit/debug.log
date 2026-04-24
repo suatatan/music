@@ -1,0 +1,413 @@
+﻿[2026-04-24T17:36:03.207Z] [Plugin] Starting plugin initialization
+[2026-04-24T17:36:03.219Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 0,
+  "remoteShaCount": 0,
+  "lastCommit": null
+}
+[2026-04-24T17:36:03.222Z] [Plugin] Plugin initialization completed successfully
+[2026-04-24T17:36:05.860Z] [FitSettings] Cannot refresh fields without PAT token
+[2026-04-24T17:38:17.723Z] [Plugin] Manual sync requested
+[2026-04-24T17:40:40.356Z] [Plugin] Manual sync requested
+[2026-04-24T17:51:07.212Z] [Plugin] Manual sync requested
+[2026-04-24T17:51:07.228Z] 🚀 [SYNC START] Manual sync requested
+[2026-04-24T17:51:07.229Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-04-24T17:51:07.233Z] .. 💾 [LocalVault] Scanning files...
+[2026-04-24T17:51:07.235Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-04-24T17:51:07.303Z] ... 💾 [LocalVault] Scanned 4 files
+[2026-04-24T17:51:08.250Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (8a26245)...
+[2026-04-24T17:51:08.787Z] ... ☁️ [RemoteVault] Fetched 16 files
+[2026-04-24T17:51:08.788Z] [Fit] Remote changes detected: {
+  "ADDED": 16,
+  "MODIFIED": 0,
+  "REMOVED": 0,
+  "total": 16
+}
+[2026-04-24T17:51:08.788Z] .. ✅ [Sync] Change detection complete
+[2026-04-24T17:51:08.789Z] 🔄 [FitSync] Syncing changes (4 local, 16 remote): {
+  "local": {
+    "ADDED": [
+      "99-Ekler/Pasted image 20260423124443.png",
+      "99-Ekler/Pasted image 20260423122439.png",
+      "02-Nota Çalışmaları/Şerane Çalışması.md",
+      "01-Ham Notalar/Şerane Nota.jpeg"
+    ]
+  },
+  "remote": {
+    "ADDED": [
+      ".obsidian/app.json",
+      ".obsidian/appearance.json",
+      ".obsidian/community-plugins.json",
+      ".obsidian/core-plugins.json",
+      ".obsidian/plugins/github/data.json",
+      ".obsidian/plugins/github/main.js",
+      ".obsidian/plugins/github/manifest.json",
+      ".obsidian/plugins/github/styles.css",
+      ".obsidian/plugins/obsidian-emoji-toolbar/main.js",
+      ".obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+      ".obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+      ".obsidian/workspace.json",
+      "01-Ham Notalar/Şerane Nota.jpeg",
+      "02-Nota Çalışmaları/Şerane Çalışması.md",
+      "99-Ekler/Pasted image 20260423122439.png",
+      "99-Ekler/Pasted image 20260423124443.png"
+    ]
+  }
+}
+[2026-04-24T17:51:08.790Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 16
+}
+[2026-04-24T17:51:10.313Z] .. ⬇️ [Pull] Applied remote changes to local: {
+  "filesWritten": 0,
+  "filesDeleted": 0,
+  "clashesWrittenToFit": 16
+}
+[2026-04-24T17:51:10.313Z] [FitSync] Updated local state with SHAs from written files: {
+  "filesProcessed": 12,
+  "totalFilesInState": 16
+}
+[2026-04-24T17:51:10.313Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 16,
+  "remoteChanges": 16,
+  "commitChanged": true,
+  "warnings": [
+    "Local SHA cache jumped from 0 to 16 files - possible recovery from empty cache or first sync"
+  ],
+  "localOpsApplied": 16,
+  "remoteOpsPushed": 0
+}
+[2026-04-24T17:51:10.324Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 4,
+  "remoteShaCount": 16,
+  "lastCommit": "8a26245f5001b30eae20e5bf83a4687135e735ec"
+}
+[2026-04-24T17:51:10.324Z] [FitSync] Sync completed with conflicts: {
+  "conflictCount": 16,
+  "conflicts": [
+    {
+      "path": "99-Ekler/Pasted image 20260423124443.png",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "99-Ekler/Pasted image 20260423122439.png",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02-Nota Çalışmaları/Şerane Çalışması.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "01-Ham Notalar/Şerane Nota.jpeg",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/app.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/appearance.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/community-plugins.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/core-plugins.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/github/data.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/github/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/github/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/github/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-emoji-toolbar/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "local": "protected",
+      "remote": "ADDED"
+    }
+  ]
+}
+[2026-04-24T17:51:10.325Z] [FitSync] 12 path(s) blocked by sync policy: {
+  "protectedPaths": [
+    ".obsidian/app.json",
+    ".obsidian/appearance.json",
+    ".obsidian/community-plugins.json",
+    ".obsidian/core-plugins.json",
+    ".obsidian/plugins/github/data.json",
+    ".obsidian/plugins/github/main.js",
+    ".obsidian/plugins/github/manifest.json",
+    ".obsidian/plugins/github/styles.css",
+    ".obsidian/plugins/obsidian-emoji-toolbar/main.js",
+    ".obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+    ".obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+    ".obsidian/workspace.json"
+  ]
+}
+[2026-04-24T17:51:10.325Z] ✅ [SYNC COMPLETE] Success with conflicts: {
+  "duration": "3.10s",
+  "totalOperations": 16,
+  "conflicts": 16,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": [
+        {
+          "path": "_fit/99-Ekler/Pasted image 20260423124443.png",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/99-Ekler/Pasted image 20260423122439.png",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/01-Ham Notalar/Şerane Nota.jpeg",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/app.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/appearance.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/community-plugins.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/core-plugins.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/github/data.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/github/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/github/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/github/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/workspace.json",
+          "type": "ADDED"
+        }
+      ]
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": []
+    }
+  ],
+  "unresolvedConflicts": [
+    {
+      "path": "99-Ekler/Pasted image 20260423124443.png",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "99-Ekler/Pasted image 20260423122439.png",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02-Nota Çalışmaları/Şerane Çalışması.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "01-Ham Notalar/Şerane Nota.jpeg",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/app.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/appearance.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/community-plugins.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/core-plugins.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/github/data.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/github/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/github/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/github/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-emoji-toolbar/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    }
+  ]
+}
+[2026-04-24T17:51:47.529Z] [Plugin] Manual sync requested
+[2026-04-24T17:51:47.541Z] 🚀 [SYNC START] Manual sync requested
+[2026-04-24T17:51:47.542Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-04-24T17:51:47.542Z] .. 💾 [LocalVault] Scanning files...
+[2026-04-24T17:51:47.548Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-04-24T17:51:47.642Z] ... 💾 [LocalVault] Scanned 8 files
+[2026-04-24T17:51:48.193Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (8a26245)...
+[2026-04-24T17:51:48.709Z] ... ☁️ [RemoteVault] Fetched 16 files
+[2026-04-24T17:51:48.709Z] .. ✅ [Sync] Change detection complete
+[2026-04-24T17:51:48.709Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-04-24T17:51:48.710Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 4,
+  "remoteChanges": 0,
+  "commitChanged": false,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 0
+}
+[2026-04-24T17:51:48.737Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 4,
+  "remoteShaCount": 16,
+  "lastCommit": "8a26245f5001b30eae20e5bf83a4687135e735ec"
+}
+[2026-04-24T17:51:48.737Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "1.20s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
+[2026-04-24T17:52:10.904Z] [Plugin] Manual sync requested
+[2026-04-24T17:52:10.924Z] 🚀 [SYNC START] Manual sync requested
+[2026-04-24T17:52:10.925Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-04-24T17:52:10.925Z] .. 💾 [LocalVault] Scanning files...
+[2026-04-24T17:52:10.925Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-04-24T17:52:10.973Z] ... 💾 [LocalVault] Scanned 8 files
+[2026-04-24T17:52:11.413Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (8a26245)...
+[2026-04-24T17:52:12.082Z] ... ☁️ [RemoteVault] Fetched 16 files
+[2026-04-24T17:52:12.082Z] .. ✅ [Sync] Change detection complete
+[2026-04-24T17:52:12.083Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-04-24T17:52:12.083Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 4,
+  "remoteChanges": 0,
+  "commitChanged": false,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 0
+}
+[2026-04-24T17:52:12.090Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 4,
+  "remoteShaCount": 16,
+  "lastCommit": "8a26245f5001b30eae20e5bf83a4687135e735ec"
+}
+[2026-04-24T17:52:12.091Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "1.17s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
