@@ -411,3 +411,531 @@
   "totalOperations": 0,
   "conflicts": 0
 }
+[2026-04-24T17:56:43.237Z] [Plugin] Manual sync requested
+[2026-04-24T17:56:43.260Z] 🚀 [SYNC START] Manual sync requested
+[2026-04-24T17:56:43.261Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-04-24T17:56:43.261Z] .. 💾 [LocalVault] Scanning files...
+[2026-04-24T17:56:43.262Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-04-24T17:56:43.322Z] ... 💾 [LocalVault] Scanned 8 files
+[2026-04-24T17:56:44.258Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (bc0ef71)...
+[2026-04-24T17:56:44.834Z] ... ☁️ [RemoteVault] Fetched 41 files
+[2026-04-24T17:56:44.835Z] [Fit] Remote changes detected: {
+  "ADDED": 25,
+  "MODIFIED": 3,
+  "REMOVED": 0,
+  "total": 28
+}
+[2026-04-24T17:56:44.835Z] .. ✅ [Sync] Change detection complete
+[2026-04-24T17:56:44.835Z] 🔄 [FitSync] Syncing changes (1 local, 28 remote): {
+  "local": {
+    "MODIFIED": [
+      "02-Nota Çalışmaları/Şerane Çalışması.md"
+    ]
+  },
+  "remote": {
+    "ADDED": [
+      ".gitignore",
+      ".obsidian/plugins/fit/data.json",
+      ".obsidian/plugins/fit/debug.log",
+      ".obsidian/plugins/fit/main.js",
+      ".obsidian/plugins/fit/manifest.json",
+      ".obsidian/plugins/fit/styles.css",
+      ".obsidian/plugins/music-code-blocks/main.js",
+      ".obsidian/plugins/music-code-blocks/manifest.json",
+      ".obsidian/plugins/music-code-blocks/styles.css",
+      "_fit/.obsidian/app.json",
+      "_fit/.obsidian/appearance.json",
+      "_fit/.obsidian/community-plugins.json",
+      "_fit/.obsidian/core-plugins.json",
+      "_fit/.obsidian/plugins/github/data.json",
+      "_fit/.obsidian/plugins/github/main.js",
+      "_fit/.obsidian/plugins/github/manifest.json",
+      "_fit/.obsidian/plugins/github/styles.css",
+      "_fit/.obsidian/plugins/obsidian-emoji-toolbar/main.js",
+      "_fit/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+      "_fit/.obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+      "_fit/.obsidian/workspace.json",
+      "_fit/01-Ham Notalar/Şerane Nota.jpeg",
+      "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+      "_fit/99-Ekler/Pasted image 20260423122439.png",
+      "_fit/99-Ekler/Pasted image 20260423124443.png"
+    ],
+    "MODIFIED": [
+      ".obsidian/community-plugins.json",
+      ".obsidian/workspace.json",
+      "02-Nota Çalışmaları/Şerane Çalışması.md"
+    ]
+  }
+}
+[2026-04-24T17:56:44.837Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 28
+}
+[2026-04-24T17:56:46.815Z] .. ⬇️ [Pull] Applied remote changes to local: {
+  "filesWritten": 0,
+  "filesDeleted": 0,
+  "clashesWrittenToFit": 28
+}
+[2026-04-24T17:56:46.815Z] [FitSync] Updated local state with SHAs from written files: {
+  "filesProcessed": 23,
+  "totalFilesInState": 31
+}
+[2026-04-24T17:56:46.816Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 27,
+  "remoteChanges": 25,
+  "commitChanged": true,
+  "localOpsApplied": 28,
+  "remoteOpsPushed": 0
+}
+[2026-04-24T17:56:46.826Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 5,
+  "remoteShaCount": 41,
+  "lastCommit": "bc0ef714c1674345e2b7185b42bc656f07ab2b59"
+}
+[2026-04-24T17:56:46.826Z] [FitSync] Sync completed with conflicts: {
+  "conflictCount": 28,
+  "conflicts": [
+    {
+      "path": "02-Nota Çalışmaları/Şerane Çalışması.md",
+      "local": "MODIFIED",
+      "remote": "MODIFIED"
+    },
+    {
+      "path": ".gitignore",
+      "local": "untracked",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/community-plugins.json",
+      "local": "protected",
+      "remote": "MODIFIED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/data.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/debug.log",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/music-code-blocks/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/music-code-blocks/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/music-code-blocks/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "local": "protected",
+      "remote": "MODIFIED"
+    },
+    {
+      "path": "_fit/.obsidian/app.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/appearance.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/community-plugins.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/core-plugins.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/data.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/workspace.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/01-Ham Notalar/Şerane Nota.jpeg",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/99-Ekler/Pasted image 20260423122439.png",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": "_fit/99-Ekler/Pasted image 20260423124443.png",
+      "local": "protected",
+      "remote": "ADDED"
+    }
+  ]
+}
+[2026-04-24T17:56:46.826Z] [FitSync] 26 path(s) blocked by sync policy: {
+  "protectedPaths": [
+    ".obsidian/community-plugins.json",
+    ".obsidian/plugins/fit/data.json",
+    ".obsidian/plugins/fit/debug.log",
+    ".obsidian/plugins/fit/main.js",
+    ".obsidian/plugins/fit/manifest.json",
+    ".obsidian/plugins/fit/styles.css",
+    ".obsidian/plugins/music-code-blocks/main.js",
+    ".obsidian/plugins/music-code-blocks/manifest.json",
+    ".obsidian/plugins/music-code-blocks/styles.css",
+    ".obsidian/workspace.json",
+    "_fit/.obsidian/app.json",
+    "_fit/.obsidian/appearance.json",
+    "_fit/.obsidian/community-plugins.json",
+    "_fit/.obsidian/core-plugins.json",
+    "_fit/.obsidian/plugins/github/data.json",
+    "_fit/.obsidian/plugins/github/main.js",
+    "_fit/.obsidian/plugins/github/manifest.json",
+    "_fit/.obsidian/plugins/github/styles.css",
+    "_fit/.obsidian/plugins/obsidian-emoji-toolbar/main.js",
+    "_fit/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+    "_fit/.obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+    "_fit/.obsidian/workspace.json",
+    "_fit/01-Ham Notalar/Şerane Nota.jpeg",
+    "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+    "_fit/99-Ekler/Pasted image 20260423122439.png",
+    "_fit/99-Ekler/Pasted image 20260423124443.png"
+  ]
+}
+[2026-04-24T17:56:46.827Z] ✅ [SYNC COMPLETE] Success with conflicts: {
+  "duration": "3.57s",
+  "totalOperations": 28,
+  "conflicts": 28,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": [
+        {
+          "path": "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+          "type": "MODIFIED"
+        },
+        {
+          "path": "_fit/.gitignore",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/community-plugins.json",
+          "type": "MODIFIED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/fit/data.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/fit/debug.log",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/fit/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/fit/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/fit/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/music-code-blocks/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/music-code-blocks/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/music-code-blocks/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/workspace.json",
+          "type": "MODIFIED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/app.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/appearance.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/community-plugins.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/core-plugins.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/plugins/github/data.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/plugins/github/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/plugins/github/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/plugins/github/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/plugins/obsidian-emoji-toolbar/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/.obsidian/workspace.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/01-Ham Notalar/Şerane Nota.jpeg",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/99-Ekler/Pasted image 20260423122439.png",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/_fit/99-Ekler/Pasted image 20260423124443.png",
+          "type": "ADDED"
+        }
+      ]
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": []
+    }
+  ],
+  "unresolvedConflicts": [
+    {
+      "path": "02-Nota Çalışmaları/Şerane Çalışması.md",
+      "localState": "MODIFIED",
+      "remoteOp": "MODIFIED"
+    },
+    {
+      "path": ".gitignore",
+      "localState": "untracked",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/community-plugins.json",
+      "localState": "protected",
+      "remoteOp": "MODIFIED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/data.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/debug.log",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/music-code-blocks/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/music-code-blocks/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/music-code-blocks/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "localState": "protected",
+      "remoteOp": "MODIFIED"
+    },
+    {
+      "path": "_fit/.obsidian/app.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/appearance.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/community-plugins.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/core-plugins.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/data.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/.obsidian/workspace.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/01-Ham Notalar/Şerane Nota.jpeg",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/99-Ekler/Pasted image 20260423122439.png",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "_fit/99-Ekler/Pasted image 20260423124443.png",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    }
+  ]
+}
