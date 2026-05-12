@@ -939,3 +939,454 @@
     }
   ]
 }
+[2026-04-24T17:58:47.218Z] [Plugin] Manual sync requested
+[2026-04-24T17:58:47.233Z] 🚀 [SYNC START] Manual sync requested
+[2026-04-24T17:58:47.233Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-04-24T17:58:47.233Z] .. 💾 [LocalVault] Scanning files...
+[2026-04-24T17:58:47.233Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-04-24T17:58:47.294Z] ... 💾 [LocalVault] Scanned 4 files
+[2026-04-24T17:58:48.125Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (df5710d)...
+[2026-04-24T17:58:48.737Z] ... ☁️ [RemoteVault] Fetched 25 files
+[2026-04-24T17:58:48.737Z] [Fit] Remote changes detected: {
+  "ADDED": 0,
+  "MODIFIED": 4,
+  "REMOVED": 16,
+  "total": 20
+}
+[2026-04-24T17:58:48.737Z] .. ✅ [Sync] Change detection complete
+[2026-04-24T17:58:48.740Z] 🔄 [FitSync] Syncing changes (1 local, 20 remote): {
+  "local": {
+    "MODIFIED": [
+      "02-Nota Çalışmaları/Şerane Çalışması.md"
+    ]
+  },
+  "remote": {
+    "MODIFIED": [
+      ".obsidian/plugins/fit/data.json",
+      ".obsidian/plugins/fit/debug.log",
+      ".obsidian/workspace.json",
+      "02-Nota Çalışmaları/Şerane Çalışması.md"
+    ],
+    "REMOVED": [
+      "_fit/.obsidian/app.json",
+      "_fit/.obsidian/appearance.json",
+      "_fit/.obsidian/community-plugins.json",
+      "_fit/.obsidian/core-plugins.json",
+      "_fit/.obsidian/plugins/github/data.json",
+      "_fit/.obsidian/plugins/github/main.js",
+      "_fit/.obsidian/plugins/github/manifest.json",
+      "_fit/.obsidian/plugins/github/styles.css",
+      "_fit/.obsidian/plugins/obsidian-emoji-toolbar/main.js",
+      "_fit/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+      "_fit/.obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+      "_fit/.obsidian/workspace.json",
+      "_fit/01-Ham Notalar/Şerane Nota.jpeg",
+      "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+      "_fit/99-Ekler/Pasted image 20260423122439.png",
+      "_fit/99-Ekler/Pasted image 20260423124443.png"
+    ]
+  }
+}
+[2026-04-24T17:58:48.741Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 20
+}
+[2026-04-24T17:58:49.438Z] .. ⬇️ [Pull] Applied remote changes to local: {
+  "filesWritten": 0,
+  "filesDeleted": 0,
+  "clashesWrittenToFit": 4
+}
+[2026-04-24T17:58:49.438Z] [FitSync] Updated local state with SHAs from written files: {
+  "filesProcessed": 3,
+  "totalFilesInState": 7
+}
+[2026-04-24T17:58:49.439Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 4,
+  "remoteChanges": 16,
+  "commitChanged": true,
+  "localOpsApplied": 4,
+  "remoteOpsPushed": 0
+}
+[2026-04-24T17:58:49.448Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 4,
+  "remoteShaCount": 25,
+  "lastCommit": "df5710d1c743945d72d8644864a006f84243ca7d"
+}
+[2026-04-24T17:58:49.448Z] [FitSync] Sync completed with conflicts: {
+  "conflictCount": 20,
+  "conflicts": [
+    {
+      "path": "02-Nota Çalışmaları/Şerane Çalışması.md",
+      "local": "MODIFIED",
+      "remote": "MODIFIED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/data.json",
+      "local": "protected",
+      "remote": "MODIFIED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/debug.log",
+      "local": "protected",
+      "remote": "MODIFIED"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "local": "protected",
+      "remote": "MODIFIED"
+    },
+    {
+      "path": "_fit/.obsidian/app.json",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/appearance.json",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/community-plugins.json",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/core-plugins.json",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/data.json",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/main.js",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/manifest.json",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/styles.css",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/main.js",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/workspace.json",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/01-Ham Notalar/Şerane Nota.jpeg",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/99-Ekler/Pasted image 20260423122439.png",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": "_fit/99-Ekler/Pasted image 20260423124443.png",
+      "local": "protected",
+      "remote": "REMOVED"
+    }
+  ]
+}
+[2026-04-24T17:58:49.448Z] [FitSync] 19 path(s) blocked by sync policy: {
+  "protectedPaths": [
+    ".obsidian/plugins/fit/data.json",
+    ".obsidian/plugins/fit/debug.log",
+    ".obsidian/workspace.json",
+    "_fit/.obsidian/app.json",
+    "_fit/.obsidian/appearance.json",
+    "_fit/.obsidian/community-plugins.json",
+    "_fit/.obsidian/core-plugins.json",
+    "_fit/.obsidian/plugins/github/data.json",
+    "_fit/.obsidian/plugins/github/main.js",
+    "_fit/.obsidian/plugins/github/manifest.json",
+    "_fit/.obsidian/plugins/github/styles.css",
+    "_fit/.obsidian/plugins/obsidian-emoji-toolbar/main.js",
+    "_fit/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+    "_fit/.obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+    "_fit/.obsidian/workspace.json",
+    "_fit/01-Ham Notalar/Şerane Nota.jpeg",
+    "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+    "_fit/99-Ekler/Pasted image 20260423122439.png",
+    "_fit/99-Ekler/Pasted image 20260423124443.png"
+  ]
+}
+[2026-04-24T17:58:49.448Z] ✅ [SYNC COMPLETE] Success with conflicts: {
+  "duration": "2.21s",
+  "totalOperations": 4,
+  "conflicts": 20,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": [
+        {
+          "path": "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/fit/data.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/fit/debug.log",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/workspace.json",
+          "type": "ADDED"
+        }
+      ]
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": []
+    }
+  ],
+  "unresolvedConflicts": [
+    {
+      "path": "02-Nota Çalışmaları/Şerane Çalışması.md",
+      "localState": "MODIFIED",
+      "remoteOp": "MODIFIED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/data.json",
+      "localState": "protected",
+      "remoteOp": "MODIFIED"
+    },
+    {
+      "path": ".obsidian/plugins/fit/debug.log",
+      "localState": "protected",
+      "remoteOp": "MODIFIED"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "localState": "protected",
+      "remoteOp": "MODIFIED"
+    },
+    {
+      "path": "_fit/.obsidian/app.json",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/appearance.json",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/community-plugins.json",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/core-plugins.json",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/data.json",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/main.js",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/manifest.json",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/github/styles.css",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/main.js",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/plugins/obsidian-emoji-toolbar/styles.css",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/.obsidian/workspace.json",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/01-Ham Notalar/Şerane Nota.jpeg",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/02-Nota Çalışmaları/Şerane Çalışması.md",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/99-Ekler/Pasted image 20260423122439.png",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": "_fit/99-Ekler/Pasted image 20260423124443.png",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    }
+  ]
+}
+[2026-04-24T17:58:59.074Z] [Plugin] Manual sync requested
+[2026-04-24T17:58:59.081Z] 🚀 [SYNC START] Manual sync requested
+[2026-04-24T17:58:59.081Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-04-24T17:58:59.081Z] .. 💾 [LocalVault] Scanning files...
+[2026-04-24T17:58:59.081Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-04-24T17:58:59.103Z] ... 💾 [LocalVault] Scanned 4 files
+[2026-04-24T17:58:59.647Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (df5710d)...
+[2026-04-24T17:59:00.141Z] ... ☁️ [RemoteVault] Fetched 25 files
+[2026-04-24T17:59:00.141Z] .. ✅ [Sync] Change detection complete
+[2026-04-24T17:59:00.141Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-04-24T17:59:00.153Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 4,
+  "remoteShaCount": 25,
+  "lastCommit": "df5710d1c743945d72d8644864a006f84243ca7d"
+}
+[2026-04-24T17:59:00.154Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "1.07s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
+[2026-04-24T17:59:23.841Z] [Plugin] Manual sync requested
+[2026-04-24T17:59:23.846Z] 🚀 [SYNC START] Manual sync requested
+[2026-04-24T17:59:23.846Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-04-24T17:59:23.846Z] .. 💾 [LocalVault] Scanning files...
+[2026-04-24T17:59:23.846Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-04-24T17:59:23.868Z] ... 💾 [LocalVault] Scanned 4 files
+[2026-04-24T17:59:24.375Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (df5710d)...
+[2026-04-24T17:59:24.892Z] ... ☁️ [RemoteVault] Fetched 25 files
+[2026-04-24T17:59:24.892Z] .. ✅ [Sync] Change detection complete
+[2026-04-24T17:59:24.892Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-04-24T17:59:24.901Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 4,
+  "remoteShaCount": 25,
+  "lastCommit": "df5710d1c743945d72d8644864a006f84243ca7d"
+}
+[2026-04-24T17:59:24.901Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "1.05s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
+[2026-04-24T17:59:30.086Z] [Plugin] Manual sync requested
+[2026-04-24T17:59:30.094Z] 🚀 [SYNC START] Manual sync requested
+[2026-04-24T17:59:30.094Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-04-24T17:59:30.094Z] .. 💾 [LocalVault] Scanning files...
+[2026-04-24T17:59:30.094Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-04-24T17:59:30.117Z] ... 💾 [LocalVault] Scanned 4 files
+[2026-04-24T17:59:30.618Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (df5710d)...
+[2026-04-24T17:59:31.143Z] ... ☁️ [RemoteVault] Fetched 25 files
+[2026-04-24T17:59:31.143Z] .. ✅ [Sync] Change detection complete
+[2026-04-24T17:59:31.143Z] 🔄 [FitSync] Syncing changes (1 local, 0 remote): {
+  "local": {
+    "MODIFIED": [
+      "02-Nota Çalışmaları/Şerane Çalışması.md"
+    ]
+  }
+}
+[2026-04-24T17:59:31.144Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 1,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-04-24T17:59:31.847Z] ... 📦 [RemoteVault] Using cached state (df5710d)
+[2026-04-24T17:59:34.409Z] .. ⬆️ [Push] Pushed 1 changes to remote
+[2026-04-24T17:59:34.409Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 0,
+  "remoteChanges": 0,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 1
+}
+[2026-04-24T17:59:34.427Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 4,
+  "remoteShaCount": 25,
+  "lastCommit": "ab0d35b50b2bae22c3667db0a91959393ea6eeab"
+}
+[2026-04-24T17:59:34.427Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "4.33s",
+  "totalOperations": 1,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "02-Nota Çalışmaları/Şerane Çalışması.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ]
+}
+[2026-05-12T12:43:30.726Z] [Plugin] Starting plugin initialization
+[2026-05-12T12:43:30.743Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 4,
+  "remoteShaCount": 25,
+  "lastCommit": "ab0d35b50b2bae22c3667db0a91959393ea6eeab"
+}
+[2026-05-12T12:43:30.746Z] [Plugin] Plugin initialization completed successfully

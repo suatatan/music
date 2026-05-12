@@ -18,18 +18,22 @@
 Patlatmasız:  si  re  do re si          la   do   si    do    la      sol     fa   sol        la    --------
 Patlatmalı:    si ♌  re   do re si    la
 
-# Kendi çaldığım--
+# Kendi çaldığım Format ABC.
 
 ```abc
 X: 1
 T:Şerane
 M:4/4
 L:1/8
-Q:1/8=70
+Q:1/8=80
 K: G
 F2 G2 A2 B2 | C'2 (D'B) C'3 z | (AE') (D'E') C'3 z |
 w:fa sol la si  do  re-si  do.     la-mi re-mi do.
-(BD') (C'D') B3 z| (AC') (BC') A2 (3GFG | A3
+(BD') (C'D') B3 z| (AC') (BC') A2 (3GFG | A3 A z A A2 |
+w: po
+(D'F') (M'F) E' z
+w: xx
+
 
 
 ```
